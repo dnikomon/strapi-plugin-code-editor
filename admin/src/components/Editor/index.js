@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react';
-import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
 import MonacoEditor, { useMonaco } from "@monaco-editor/react";
 
-export const Editor = ({ onChange, value, name }: { onChange: any; value: string; name: string }) => {
+export const Editor = ({ onChange, value, name }) => {
   const isCode = name === 'code'
   const monaco = useMonaco()
 
