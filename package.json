@@ -8,6 +8,7 @@
     "kind": "plugin"
   },
   "dependencies": {
+    "@strapi/design-system": "^1.2.0",
     "@types/react-draft-wysiwyg": "^1.13.4",
     "immutable": "^4.1.0",
     "monaco-editor": "^0.33.0"
